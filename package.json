@@ -1,0 +1,31 @@
+{
+  "name": "atlan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm server.js"
+  },
+  "author": "Ajay Ghiyad",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "fast-two-sms": "^3.0.0",
+    "json-2-csv": "^3.17.1",
+    "json-validator": "^0.0.34",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "request-validator-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
